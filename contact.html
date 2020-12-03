@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Start Today Tattoo</title>
+  </head>
+
+  <body>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+     
+    
+    <div class="container">
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light navbarcolor">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+        <div class="container d-flex justify-content-around"> 
+            <ul class="navbar-nav">
+              <li class="nav-item  navpadding">
+                <a class="nav-link" href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item navpadding">
+                <a class="nav-link" href="./aboutme.html">ABOUT ME</a>
+              </li>
+              <li>
+                <div class="container">
+                  <a href="./index.html"
+                  ><img
+                    src="./images/banner logo.png"
+                    alt="Start Today"
+                    class="navimage img-fluid hidenavimage"
+                /></a>
+                </div>
+              </li>
+              <li class="nav-item navpadding">
+                <a class="nav-link" href="./flash.html">FLASH</a>
+              </li>
+              <li class="nav-item navpadding">
+                <a class="nav-link " href="./faqs.html">FAQs</a>
+              </li>
+              <li class="nav-item active navpadding">
+                <a class="nav-link " href="./contact.html">CONTACT<span class="sr-only navpadding">(current)</span></a>
+              </li>
+            </ul>
+          </div> 
+          </div>
+        </nav>
+      </div>
+    
+
+    <br />
+
+    <div class="bannerblock2">
+        <div class="container">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-3 d-flex justify-content-center">
+              <img src="./images/contact/contact.png" class="img-fluid pagetitle hidetitle"
+              />
+              <h1 class="showtitle">CONTACT</h1>
+            </div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+      </div>
+
+    </br>
+
+    <div class="bannerblock">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 hideimage">            
+              <img
+                src="./images/contact/cntctborder.png"
+                class="bannerborder img-fluid"
+              />
+            </div>
+            <div class="col-md-3 hideimage">
+              <img
+                src="./images/contact/cntctborder.png"
+                class="bannerborder img-fluid"
+              />
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <img
+                src="./images/contact/cntctborder.png"
+                class="bannerborder img-fluid"
+              />
+            </div>
+            <div class="col-md-3 hideimage">
+              <img
+                src="./images/contact/cntctborder.png"
+                class="bannerborder img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br/>
+
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+              <div class="col-md-3 col-xs-5 d-flex align-items-center">
+                <img
+                  src="./images/contact/contactimg.png"
+                  class="img-fluid contact-topbottom hidenavimage"
+                />
+              </div>
+              <div class="col-md-5 col-xs-8">
+                  <p class="contact">
+                      If you have seen something you like on my flash or already have a design in mind and are ready to book in your appointment please use my <a href="form.jotform.com/202433079322044" class="underline">booking form</a>.
+                      <br/><br/>If you still have some questions that haven't been answered on the FAQs page or just want to get in contact before booking feel free to message me via my <a href="https://www.instagram.com/starttodaytattoo/" class="underline">Instagram</a> or use the form below to send me an email!
+                    </p>
+              </div>
+              <div class="col-md-3 col-xs-5 d-flex align-items-center">
+                <img
+                  src="./images/contact/contactimg.png"
+                  class="img-fluid contact-topbottom"
+                />
+              </div>
+            </div>
+          </div>
+
+
+    <form action="https://formsubmit.co/fdfaee74f45487f695cf3cc1e34c66b2" method="POST">
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Name:</label>
+          <input
+            type="Name"
+            class="form-control"
+            id="name"
+            name="name"
+          />
+        </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="name@example.com"
+          name="email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1"
+          >What are you getting in contact about?</label
+        >
+        <select class="form-control" id="exampleFormControlSelect1" name="subject">
+          <option
+              type="text"
+              readonly
+              value="Please Select..."
+              id="subject"
+              name="subject"
+          />Please Select...</option>
+          <option>Commissions</option>
+          <option>Existing Bookings</option>
+          <option>Flash</option>
+          <option>General questions</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message:</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          name="message"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Submit</button>
+    </form>
+
+    <br />
+
+    <div class="bannerblock">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 hideimage">            
+            <img
+              src="./images/contact/cntctborder.png"
+              class="bannerborder img-fluid"
+            />
+          </div>
+          <div class="col-md-3 hideimage">
+            <img
+              src="./images/contact/cntctborder.png"
+              class="bannerborder img-fluid"
+            />
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <img
+              src="./images/contact/cntctborder.png"
+              class="bannerborder img-fluid"
+            />
+          </div>
+          <div class="col-md-3 hideimage">
+            <img
+              src="./images/contact/cntctborder.png"
+              class="bannerborder img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thanks for your message!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    I'll be getting back to you as soon as I can, keep checking your emails!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      <br/>
+
+    <div class="footer">
+      <p>
+        <a href="https://www.instagram.com/starttodaytattoo/"
+          ><img class="ig" src="./images/instagram.png" width="60"
+        /></a>
+        Find me on Instagram
+        <a href="https://www.instagram.com/starttodaytattoo/"
+          >@starttodaytattoo</a
+        > ~ Copyright 2020 Start Today
+      </p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
