@@ -1,0 +1,302 @@
+
+p {
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  padding-top: 1rem;
+}
+
+/*
+  Jasmine's CSS...
+*/
+
+.nav-item:hover a {
+  border-bottom: 2px solid rgb(255, 232, 3);
+  width: fit-content;
+}
+
+footer {
+  box-align: center;
+  width: 29%;
+}
+
+.ig {
+  margin-left: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+}
+
+.abtme {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  /*border: single;*/
+  border: grey; /* Remove borders */
+  outline: none; /*Remove outline */
+  background-color: white; /* Set a background color */
+  color: grey; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /*Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  border: rgb(255, 232, 3);
+  color: rgb(255, 232, 3); /* Add a dark-grey background on hover */
+}
+
+/* A link that has not been visited */
+a:link {
+  color: black;
+}
+/* A link that has been visited */
+
+a:visited {
+  color: gray;
+}
+/* A link that is hovered on */
+a:hover {
+  color: rgb(255, 232, 3);
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+/* A link that is selected */
+a:active {
+  color: rgb(255, 232, 3);
+}
+
+form {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+}
+
+.btn-outline-warning {
+  color: black;
+  border: rgb(255, 232, 3);
+  border: double;
+}
+
+.btn-outline-warning:hover {
+  background-color: rgb(255, 232, 3);
+  color: white;
+}
+
+.imgLiz {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 250px;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.contact {
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+a.underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 232, 3);
+}
+
+.contact-topbottom {
+  padding-bottom: 1rem;
+  border-top: double;
+  border-bottom: double;
+  border-color: rgb(255, 232, 3);
+  width: 50%;
+  height: 150px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+  }
+
+  .contact-topbottom {
+    width: 50%;
+    height: 190px;
+    width: auto;
+  }
+}
+
+/*
+  Charlie's CSS...
+*/
+
+.bannerblock2 {
+  background-color: rgb(255, 232, 3);
+  padding: 2%;
+  border-top: double;
+  border-bottom: double;
+  border-color: white;
+  padding-top: 1rem;
+}
+
+.hideimage {
+  display: none;
+}
+
+.navimage {
+  width: 200px;
+  height: 70px;
+  margin: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hideimage {
+    display: block;
+  }
+}
+
+.navbarcolor {
+  background-color: white;
+  border-top: double;
+  border-bottom: double;
+  border-color: rgb(255, 232, 3);
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 20px;
+  white-space: nowrap;
+  margin-top: 1rem;
+}
+
+.navpadding {
+  padding-top: 1rem;
+}
+
+.bannerblock {
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.faqbanner {
+  background-color: white;
+  border-left: double;
+  border-right: double;
+  border-color: rgb(255, 232, 3);
+}
+
+.faqtext {
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  padding-top: 1rem;
+}
+
+.pagetitle {
+  height: 100%;
+  width: 100%;
+}
+
+.flashsheet {
+  height: 100%;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.flashborder {
+  border-top: double;
+  border-bottom: double;
+  border-left: double;
+  border-right: double;
+  border-color: rgb(255, 232, 3);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carouselborder {
+  border-top: double;
+  border-bottom: double;
+  border-left: double;
+  border-right: double;
+  border-color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background: rgb(255, 232, 3);
+}
+
+li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.border-topbottom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: double;
+  border-bottom: double;
+  border-color: rgb(255, 232, 3);
+}
+
+.show-outline-target:focus {
+  box-shadow: none !important;
+}
+
+.hidetitle {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidetitle {
+    display: block;
+  }
+}
+
+.showtitle {
+  display: block;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .showtitle {
+    display: none;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.hidenavimage {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .hidenavimage {
+    display: block;
+  }
+}
